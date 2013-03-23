@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html dir="rtl" lang="urdu">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>ArabicVer</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- ArabicVer references -->
+    <link type="text/css"rel="stylesheet" href="/UrduVer/css/urdu.css"  />
+    <link type="text/css"rel="stylesheet" href="/css/font-face.css"  />
+    
+    <script src="/UrduVer/js/jquery-1.8.3.js"></script>
+    <script src="/UrduVer/js/jquery.transit.min.js"></script>
+    <script src="/UrduVer/js/jquery-ui-1.9.2.custom.js"></script>
+    <script src="/UrduVer/js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="/UrduVer/js/urdu.js"></script>
+
+</head>
+<body>
+
+    <!--pictures-->
+    <img class="head" id="top" src="images\logo\top.png"/>
+    <img class="head" id="name" src="images\logo\name(urdu).png"/>
+
+    <!--buttons-->
+    <img class="main_button" id="close" src="images\buttons\close.png"/>
+    <a id="home_button" href="#">
+    <img class="main_button" id="home" src="images\buttons\home.png"/>
+     </a>
+    <img class="button" id="back" src="images\buttons\back.png"/>
+
+    <!--floral patterns on the container-->
+    <img class="bg_pattern" id="border1" src="images\background\pic1.png"/>
+    <img class="bg_pattern" id="border2" src="images\background\pic2.png"/>
+    <img class="bg_pattern" id="side3" src="images\background\pic3.png"/>
+
+    <!--slides-->
+    <div class="pg" id="aqd_pg">
+        <img class="slide_image" id="aqd" src="images\slides\aqd.png" />
+        <ul class="slide_list" id="aqd_list">
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+        </ul>
+    </div>
+
+    <div class="pg" id="mnhj_pg">
+        <img class="slide_image" id="mnhj" src="images\slides\mnhj.png" />
+        <ul class="slide_list" id="mnhj_list">
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+        </ul>
+    </div>
+
+    <div class="pg" id="wrshp_pg">
+        <img class="slide_image" id="wrshp" src="images\slides\wrshp.png" />
+        <ul class="slide_list" id="wrshp_list">
+            <li><a target="myframe" href="\content\1.png">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+        </ul>
+    </div>
+
+    <div class="pg" id="misc_pg">
+        <img class="slide_image" id="misc" src="images\slides\misc.png" />
+        <ul class="slide_list" id="misc_list">
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+            <li><a href="#">سوالات</a></li>
+        </ul>
+    </div>
+
+    <div  class="pg" id="abt_pg">
+        <img class="slide_image" id="abt" src="images\slides\abt.png" />
+    </div>
+
+    <!--Main Container-->
+    <div id="container">
+        <div class="box" id="abt_box">
+            <p>شیخ کا تعارف</p>
+        </div>
+
+        <div class="box" id="misc_box">
+            <p>متفرقات</p>
+        </div>
+
+        <div class="box" id="wrshp_box">
+            <p>عبادات</p>
+        </div>
+
+        <div class="box" id="mnhj_box">
+            <p>منهج</p>
+        </div>
+
+        <div class="box" id="aqd_box">
+            <p>عقیدہ</p>
+        </div>
+    </div>
+
+    <!--display frame-->
+    <iframe name="myframe" id="display" src="\content\logopic.png"></iframe>
+
+</body>
+</html>

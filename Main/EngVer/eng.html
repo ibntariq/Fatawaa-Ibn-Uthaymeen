@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>App1</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- App1 references -->
+    <link href="/EngVer/css/eng.css" rel="stylesheet" />
+
+    <script src="/EngVer/js/jquery-1.8.3.js"></script>
+    <script src="/EngVer/js/jquery.transit.min.js"></script>
+    <script src="/EngVer/js/jquery-ui-1.9.2.custom.js"></script>
+    <script src="/EngVer/js/jquery-ui-1.9.2.custom.min.js"></script>
+
+    <script src="/EngVer/js/eng.js"></script>
+</head>
+<body>
+
+    
+
+    <!--pictures-->
+    <img class="head" id="top" src="images\top.png"/>
+    <img class="head" id="name" src="images\name.png"/>
+
+    <!--buttons-->
+    <img class="main_button" id="close" src="images\buttons\close.png"/>
+    <a id="home_button" href="#">
+    <img class="main_button" id="home" src="images\buttons\home.png"/>
+     </a>
+    <img class="button" id="back" src="images\buttons\back.png"/>
+
+    <!--floral patterns on the container-->
+    <img class="bg_pattern" id="border1" src="Images\background\pic1.png"/>
+    <img class="bg_pattern" id="border2" src="Images\background\pic2.png"/>
+    <img class="bg_pattern" id="side3" src="Images\background\pic3.png"/>
+
+    <!--slides-->
+    <div class="pg" id="aqd_pg">
+        <img class="slide_image" id="aqd" src="\images\slides\aqd.png" />
+            <ul id="aqd_list">
+                <li><a target="myframe" href="\content\1.png">Content</a></li>
+                <li><a href="#">Content</a></li>
+                <li><a href="#">Content</a></li>
+                <li><a href="#">Content</a></li>
+                </ul>
+        </div>
+
+    <div class="pg" id="mnhj_pg">
+        <img class="slide_image" id="mnhj" src="\images\slides\mnhj.png" />
+        <ul id="mnhj_list">
+            <li><a target="myframe" href="#">Content</a></li>
+            <li><a href="#">Content</a></li>
+            <li><a href="#">Content</a></li>
+            <li><a href="#">Content</a></li>
+        </ul>
+    </div>
+
+    <div class="pg" id="wrshp_pg">
+        <img class="slide_image" id="wrshp" src="\images\slides\wrshp.png" />
+        <ul id="wrshp_list">
+            <li><a href="#">Content</a></li>
+            <li><a href="#">Content</a></li>
+            <li><a href="#">Content</a></li>
+            <li><a href="#">Content</a></li>
+        </ul>
+    </div>
+
+    <div class="pg" id="misc_pg">
+        <img class="slide_image" id="misc" src="\images\slides\misc.png" />
+        <ul id="misc_list">
+            <li><a href="#">Content</a></li>
+            <li><a href="#">Content</a></li>
+            <li><a href="#">Content</a></li>
+            <li><a href="#">Content</a></li>
+        </ul>
+    </div>
+
+    <div  class="pg" id="abt_pg">
+        <img class="slide_image" id="abt" src="\images\slides\abt.png" />
+    </div>
+
+    <!--main container-->
+    <div id="container">
+                <div class="box" id="aqd_box">
+                      <p>'AQEEDAH</p>
+                   </div>
+
+                <div class="box" id="mnhj_box">
+                    <p>MANHAJ</p>
+                </div>
+
+                <div class="box" id="wrshp_box">
+                    <p>WORSHIP</p>
+                </div>
+
+                <div class="box" id="misc_box">
+                    <p>MISC</p>
+                </div>
+
+                <div class="box" id="abt_box">
+                    <p>ABOUT</p>
+                </div>
+    </div>
+
+    <!--display frame-->
+    <iframe name="myframe" id="display" src="content\logopic.png"></iframe>
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿
+p{
+    font-family: 'Hacen Liner Screen';
+}
+
+
+@font-face {
+    font-family: "Hacen Liner Screen";
+    src: url("fonts/hacen_liner_screen.eot"); /* IE 9 */
+    src: url("fonts/hacen_liner_screen.eot?") format("eot"), /* IE 6-8 */
+         url("fonts/hacen_liner_screen.otf") format("opentype"),  Other browsers 
+    url("fonts/hacen_liner_screen.ttf") format("truetype"); /* Safari, Android, iOS */
+}

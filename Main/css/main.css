@@ -1,0 +1,121 @@
+﻿body {
+    background-color: #151515;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+#container {
+    position: absolute;
+    z-index: 50;
+    width: 900px;
+    height: 400px;
+    margin-top: 56.5%;
+    margin-left: 17%;
+    border: 0.1px solid black;
+    box-shadow: 0px -5px 38px #000000;
+}
+
+.box{
+    background-color: 	#191919;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    float: left;
+    box-shadow:0px -5px 42px #000000;
+    text-align: center;
+}
+
+.lang {
+    opacity: 0;
+}
+
+#eng_text {
+    font-size: 40px;
+    font-family: 'N.O.- Movement';
+    margin-top: 3%;
+}
+
+#urdu_text {
+    font-size: 65px;    
+    font-family: 'Jameel Noori Nastaleeq';
+    margin-top: -4%;
+}
+
+#arb_text {
+    font-size: 60px;
+    font-family: 'Generator';
+    margin-top: -1%;
+}
+
+#main {
+        position: absolute;
+        margin-top: 7%;
+        margin-left: 31%;
+        z-index:13;
+}
+
+#brdr1 {
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 32%;
+        opacity: 0;
+}
+
+#brdr2 {
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 31%;
+        opacity: 1;
+}
+
+#brdr3 {
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 32%;
+        opacity: 0;
+}
+
+#hadith_eng {
+        position: absolute;
+        margin-top: 39%;
+        margin-left: 28%;        
+        opacity: 0;
+}
+
+#hadith_arb {
+        position: absolute;
+        margin-top: 39%;
+        margin-left: 36.4%;
+        opacity: 0;
+}
+
+#hadith_urdu {
+        position: absolute;
+        margin-top: 39%;
+        margin-left: 33.5%;
+        opacity: 0;
+}
+
+.link:link {
+    color: white;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
